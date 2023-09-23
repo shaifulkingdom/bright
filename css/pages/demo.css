@@ -1,0 +1,14 @@
+.demo-part .demo {
+    background: #eeeeee;
+    box-shadow: 0 10px 10px -10px #000000;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.demo-part .demo .information{
+    box-shadow: 0 10px 10px -10px #090e36;
+    border-radius: 5px;
+    padding: 20px;
+    color: #090e36;
+}
