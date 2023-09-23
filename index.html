@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright School and College</title>
+
+    <link rel="shortcut icon" href="images/logo/bright-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+        @media (min-width: 300px) and (max-width: 435.98px) {
+            .banner-part .banner img {
+                height: 250px;
+            }
+
+            .banner-part .next {
+                right: 10px;
+                font-size: 50px;
+            }
+
+            .banner-part .prev {
+                left: 10px;
+                font-size: 50px;
+            }
+
+            .about-part .about {
+                margin: 0;
+            }
+
+            .about-part .about h1 {
+                font-size: 16px !important;
+            }
+
+            .about-part .about p {
+                font-size: 14px !important;
+            }
+
+            .about-part .about p a {
+                font-size: 16px !important;
+            }
+
+            .administration-part .administration .information {
+                text-align: center;
+                margin: 0;
+            }
+
+            .administration-part .administration .information2 {
+                margin-top: 20px;
+            }
+
+
+
+            .administration-part .administration .information img {
+                width: 150px;
+                height: unset;
+            }
+
+            .administration-part .administration .information .data h1 {
+                font-size: 18px;
+                text-align: center;
+            }
+
+            .administration-part .administration .information .data h3 {
+                font-size: 16px;
+                text-align: center;
+            }
+
+            .administration-part .administration .information .data p {
+                font-size: 14px;
+            }
+
+            .administration-part .administration .information .data a {
+                font-size: 16px;
+            }
+        }
+
+        @media (min-width: 436px) and (max-width: 575.98px) {
+            .banner-part .banner img {
+                height: 300px;
+            }
+
+            .banner-part .next {
+                right: 10px;
+                font-size: 50px;
+            }
+
+            .banner-part .prev {
+                left: 10px;
+                font-size: 50px;
+            }
+
+            .about-part .about {
+                margin: 0;
+            }
+
+            .about-part .about h1 {
+                font-size: 16px !important;
+            }
+
+            .about-part .about p {
+                font-size: 14px !important;
+            }
+
+            .about-part .about p a {
+                font-size: 16px !important;
+            }
+
+            .administration-part .administration .information {
+                text-align: center;
+                margin: 0;
+            }
+
+            .administration-part .administration .information2 {
+                margin-top: 20px;
+            }
+
+            .administration-part .administration .information img {
+                width: 150px;
+                height: unset;
+            }
+
+            .administration-part .administration .information .data h1 {
+                font-size: 18px;
+                text-align: center;
+            }
+
+            .administration-part .administration .information .data h3 {
+                font-size: 16px;
+                text-align: center;
+            }
+
+            .administration-part .administration .information .data p {
+                font-size: 14px;
+            }
+
+            .administration-part .administration .information .data a {
+                font-size: 16px;
+            }
+        }
+
+        @media (min-width: 576px) and (max-width: 767.98px) {
+
+            .banner-part .banner img {
+                height: 350px !important;
+            }
+
+            .banner-part .next {
+                right: 10px;
+                font-size: 50px;
+            }
+
+            .banner-part .prev {
+                left: 10px;
+                font-size: 50px;
+            }
+
+            .about-part .about {
+                margin: 0;
+            }
+
+            .about-part .about h1 {
+                font-size: 22px !important;
+            }
+
+            .about-part .about p {
+                font-size: 14px !important;
+            }
+
+            .administration-part .administration .information {
+                text-align: center;
+            }
+
+            .administration-part .administration .information2 {
+                margin-top: 20px;
+            }
+
+            .administration-part .administration .information img {
+                width: 50%;
+                height: 130px;
+            }
+
+            .administration-part .administration .information .data h1 {
+                font-size: 18px;
+                text-align: center;
+            }
+
+            .administration-part .administration .information .data h3 {
+                font-size: 16px;
+                text-align: center;
+            }
+
+            .administration-part .administration .information .data p {
+                font-size: 14px;
+            }
+
+            .administration-part .administration .information .data a {
+                font-size: 16px;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+
+            .banner-part .banner img {
+                height: 420px !important;
+            }
+
+            .about-part .about {
+                margin: 0;
+            }
+
+            .about-part .about h1 {
+                font-size: 30px !important;
+            }
+
+            .administration-part .administration .information {
+                text-align: center;
+                margin: 0;
+            }
+
+            .administration-part .administration .information img {
+                width: 60%;
+                height: 200px;
+            }
+
+            .administration-part .administration .information .data h1 {
+                font-size: 22px;
+                text-align: center;
+            }
+
+            .administration-part .administration .information .data h3 {
+                font-size: 18px;
+                text-align: center;
+            }
+
+            .administration-part .administration .information .data p {
+                font-size: 16px;
+            }
+
+            .administration-part .administration .information .data a {
+                font-size: 18px;
+            }
+        }
+
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+
+            .banner-part .banner img {
+                height: 470px !important;
+            }
+
+            .about-part .about h1 {
+                font-size: 36px !important;
+            }
+
+            .about-part .about p {
+                font-size: 16px;
+            }
+
+            .administration-part .administration .information img {
+                height: 200px;
+            }
+
+            .administration-part .administration .information .data h1 {
+                font-size: 22px;
+            }
+
+            .administration-part .administration .information .data a {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body oncontextmenu="return fals;">
+    <div class="container body">
+        <!-- ==================== header nav news-ticker part start ==================== -->
+        <header-part></header-part>
+        <!-- ==================== header nav news-ticker part end ==================== -->
+
+        <!-- ==================== banner part start ==================== -->
+        <div class="banner-part">
+            <div class="banner">
+                <img src="images/banner/banner1.jpg" alt="banner1.jpg">
+                <div class="overlay"></div>
+            </div>
+            <div class="banner">
+                <img src="images/banner/banner2.jpg" alt="banner1.jpg">
+                <div class="overlay"></div>
+            </div>
+            <div class="banner">
+                <img src="images/banner/banner3.jpg" alt="banner3.jpg">
+                <div class="overlay"></div>
+            </div>
+        </div>
+        <!-- ==================== banner part end ==================== -->
+
+        <!-- ==================== about part start ==================== -->
+        <div class="about-part">
+            <div class="title">
+                <h1>About Us</h1>
+            </div>
+            <div class="container">
+                <div class="about">
+                    <h1>ব্রাইট স্কুল অ্যান্ড কলেজের ইতিবৃত্ত</h1>
+                    <p>মহান সৃষ্টিকর্তার অপার মহিমায় ব্রাইট স্কুল অ্যান্ড কলেজ ২০০৪ শিক্ষাবর্ষ হতে শুভযাত্রা শুরু
+                        করে।
+                        সেই থেকে বিদ্যাপীঠের সুসাফল্যের অগ্রগতির অবিরাম অগ্রযাত্রা। সুশিক্ষঅর সুখ্যাতি সুনিশ্চিত
+                        করার
+                        প্রয়োজনে গড়া হয়েছে বিএলডি ফাউন্ডেশনের বুনোট বুনিয়াদ। এ শীর্ষ ফাউন্ডেশনের বিদ্যাপীঠ ব্রাইট
+                        স্কুল
+                        অ্যান্ড কলেজ, ব্রাইট টিউটরিয়্যাল অ্যাকাডেমি এবং ব্রাইট শামসুল উলুম মাদরাসা শিক্ষাদানের
+                        প্রভালোকে
+                        শোভিত আলোকবর্তিকায় উদ্ভাসিত <a href="about.html">Read More...</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- ==================== about part end ==================== -->
+
+        <!-- ==================== message part start ==================== -->
+        <div class="administration-part">
+            <div class="title">
+                <h1>Administration</h1>
+            </div>
+            <div class="container">
+                <div class="administration">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="information">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <img src="images/chairman.jpg" alt="chairman.jpg">
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="data">
+                                            <h1>আলহাজ মাসুদ হাসান লিটন</h1>
+                                            <h3>চেয়ারম্যান</h3>
+                                            <p>জাতীয়, উন্নয়ন ও প্রগতীশীল বংলাদেশ গড়ার সোপান সার্বজনীন সুশিক্ষা।
+                                                যুগোপযোগী মান সম্পন্ন শিক্ষার প্রধান উপকরণ হচ্ছে তথ্য প্রযুক্তির সার্বিক
+                                                উৎকর্ষ সাধন। বিজ্ঞান মনস্ক তথ্য প্রযুক্তি শিক্ষার মানও ধরণ উন্নতিকল্পে
+                                                প্রতিনিয়ত পরিবর্তন ও পরিশিলন হচ্ছে। এই ব্যবহারিক প্রযুক্তি
+                                                <a href="chairman.html">Read More</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="information information2">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <img src="images/principal.jpg" alt="chairman.jpg">
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="data">
+                                            <h1>মঈদুর রহমান জেম</h1>
+                                            <h3>প্রিন্সিপাল</h3>
+                                            <p>জাতীয়, উন্নয়ন ও প্রগতীশীল বংলাদেশ গড়ার সোপান সার্বজনীন সুশিক্ষা।
+                                                যুগোপযোগী মান সম্পন্ন শিক্ষার প্রধান উপকরণ হচ্ছে তথ্য প্রযুক্তির সার্বিক
+                                                উৎকর্ষ সাধন। বিজ্ঞান মনস্ক তথ্য প্রযুক্তি শিক্ষার মানও ধরণ উন্নতিকল্পে
+                                                প্রতিনিয়ত পরিবর্তন ও পরিশিলন হচ্ছে। এই ব্যবহারিক প্রযুক্তি
+                                                <a href="principal.html">Read More</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ==================== message part end ==================== -->
+
+        <!-- ==================== footer part start ==================== -->
+        <footer-part></footer-part>
+        <!-- ==================== footer part end ==================== -->
+    </div>
+
+
+
+    <!-- ==================== javascript part start ==================== -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/slick.min.js"></script>
+
+    <!-- <script src="js/template/header-footer.js"></script> -->
+    <script src="js/script.js"></script>
+    <!-- ==================== javascript part end ==================== -->
+</body>
+
+</html>
