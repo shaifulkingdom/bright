@@ -1,4 +1,4 @@
-fetch("notice.json")
+fetch("json/notice.json")
 	.then(function (response) {
 		return response.json();
 	})
@@ -9,6 +9,9 @@ fetch("notice.json")
 			out += `
 			<tr>
 				<td>${notice.subject}</td>
+				<td><a href="${notice.link}" target="_blank">
+				<button>Download</button>
+				</a></td>
 				<td>${notice.date}</td>
 			</tr>
 		`;

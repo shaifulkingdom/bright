@@ -11,270 +11,227 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald&family=Tiro+Bangla&display=swap">
 
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <style>
-        @media (min-width: 300px) and (max-width: 435.98px) {
-            .banner-part .banner img {
-                height: 250px;
+        @media (min-width: 300px) and (max-width: 469.98px) {
+            .header-part {
+                padding: 10px 0;
             }
 
-            .banner-part .next {
-                right: 10px;
-                font-size: 50px;
+            .header-part .header .left,
+            .header-part .header .right {
+                flex: 0 0 auto;
+                width: 15%;
             }
 
-            .banner-part .prev {
-                left: 10px;
-                font-size: 50px;
+            .header-part .header .left img,
+            .header-part .header .right img {
+                width: 100%;
             }
 
-            .about-part .about {
+            .header-part .header .middle {
+                flex: 0 0 auto;
+                width: 70%;
+                padding: 0;
+            }
+
+            .header-part .header .middle h1 {
+                font-size: 6vw;
+            }
+
+            .header-part .header .middle .button {
+                margin-top: 0;
+            }
+
+            .header-part .header .middle a {
+                padding: 0;
                 margin: 0;
+                font-size: 12px;
             }
 
-            .about-part .about h1 {
-                font-size: 16px !important;
+            .nav-part .nav .menu li {
+                padding: 5px 3px;
             }
 
-            .about-part .about p {
-                font-size: 14px !important;
+            .nav-part .nav .menu a {
+                font-size: 12px;
             }
 
-            .about-part .about p a {
-                font-size: 16px !important;
+            .nav-part .nav .menu .submenu {
+                top: 34px;
+                width: 80px;
             }
 
-            .administration-part .administration .information {
-                text-align: center;
-                margin: 0;
+            .nav-part .nav .menu .submenu .link {
+                padding: 0 5px;
+                padding-top: 5px;
             }
 
-            .administration-part .administration .information2 {
-                margin-top: 20px;
+            .news-ticker-part .news-ticker label {
+                font-size: 12px;
+                padding-right: 10px;
             }
 
-
-
-            .administration-part .administration .information img {
-                width: 150px;
-                height: unset;
+            .news-ticker-part .news-ticker a {
+                font-size: 12px;
             }
 
-            .administration-part .administration .information .data h1 {
-                font-size: 18px;
-                text-align: center;
-            }
-
-            .administration-part .administration .information .data h3 {
-                font-size: 16px;
-                text-align: center;
-            }
-
-            .administration-part .administration .information .data p {
-                font-size: 14px;
-            }
-
-            .administration-part .administration .information .data a {
-                font-size: 16px;
+            .news-ticker-part .news-ticker {
+                height: 30px;
             }
         }
 
-        @media (min-width: 436px) and (max-width: 575.98px) {
-            .banner-part .banner img {
-                height: 300px;
+        @media (min-width: 470px) and (max-width: 575.98px) {
+            .header-part .header .middle h1 {
+                font-size: 5.5vw;
             }
 
-            .banner-part .next {
-                right: 10px;
-                font-size: 50px;
+            .header-part {
+                padding: 10px 0;
             }
 
-            .banner-part .prev {
-                left: 10px;
-                font-size: 50px;
+            .header-part .header .left,
+            .header-part .header .right {
+                flex: 0 0 auto;
+                width: 15%;
             }
 
-            .about-part .about {
-                margin: 0;
+            .header-part .header .left img,
+            .header-part .header .right img {
+                width: 100%;
             }
 
-            .about-part .about h1 {
-                font-size: 16px !important;
+            .header-part .header .middle {
+                flex: 0 0 auto;
+                width: 70%;
             }
 
-            .about-part .about p {
-                font-size: 14px !important;
+            .header-part .header .middle .button {
+                margin-top: 8px;
             }
 
-            .about-part .about p a {
-                font-size: 16px !important;
-            }
-
-            .administration-part .administration .information {
-                text-align: center;
-                margin: 0;
-            }
-
-            .administration-part .administration .information2 {
-                margin-top: 20px;
-            }
-
-            .administration-part .administration .information img {
-                width: 150px;
-                height: unset;
-            }
-
-            .administration-part .administration .information .data h1 {
-                font-size: 18px;
-                text-align: center;
-            }
-
-            .administration-part .administration .information .data h3 {
-                font-size: 16px;
-                text-align: center;
-            }
-
-            .administration-part .administration .information .data p {
+            .header-part .header .middle a {
+                padding: 2px 5px;
+                margin: 0 2px;
                 font-size: 14px;
             }
 
-            .administration-part .administration .information .data a {
-                font-size: 16px;
+            .nav-part .nav .menu li {
+                padding: 5px;
+            }
+
+            .nav-part .nav .menu a {
+                font-size: 14px;
+            }
+
+            .nav-part .nav .menu .submenu {
+                top: 34px;
+                width: 90px;
+            }
+
+            .nav-part .nav .menu .submenu .link {
+                padding: 0 5px;
+                padding-top: 5px;
+            }
+
+            .news-ticker-part .news-ticker label {
+                font-size: 14px;
+                padding-right: 10px;
+            }
+
+            .news-ticker-part .news-ticker a {
+                font-size: 14px;
+            }
+
+            .news-ticker-part .news-ticker {
+                height: 30px;
             }
         }
 
         @media (min-width: 576px) and (max-width: 767.98px) {
-
-            .banner-part .banner img {
-                height: 350px !important;
+            .header-part .header .middle h1 {
+                font-size: 28px;
             }
 
-            .banner-part .next {
-                right: 10px;
-                font-size: 50px;
+            .header-part {
+                padding: 10px 0;
             }
 
-            .banner-part .prev {
-                left: 10px;
-                font-size: 50px;
+            .header-part .header .left img,
+            .header-part .header .right img {
+                width: 100%;
             }
 
-            .about-part .about {
-                margin: 0;
-            }
-
-            .about-part .about h1 {
-                font-size: 22px !important;
-            }
-
-            .about-part .about p {
-                font-size: 14px !important;
-            }
-
-            .administration-part .administration .information {
-                text-align: center;
-            }
-
-            .administration-part .administration .information2 {
-                margin-top: 20px;
-            }
-
-            .administration-part .administration .information img {
-                width: 50%;
-                height: 130px;
-            }
-
-            .administration-part .administration .information .data h1 {
-                font-size: 18px;
-                text-align: center;
-            }
-
-            .administration-part .administration .information .data h3 {
+            .header-part .header .middle a {
+                padding: 2px 5px;
+                margin: 0 2px;
                 font-size: 16px;
-                text-align: center;
             }
 
-            .administration-part .administration .information .data p {
-                font-size: 14px;
+            .nav-part .nav .menu li {
+                padding: 5px;
             }
 
-            .administration-part .administration .information .data a {
+            .nav-part .nav .menu a {
                 font-size: 16px;
+            }
+
+            .nav-part .nav .menu .submenu {
+                top: 35px;
+                width: 110px;
+            }
+
+            .nav-part .nav .menu .submenu .link {
+                padding: 0 5px;
+                padding-top: 5px;
+            }
+
+            .news-ticker-part .news-ticker label {
+                font-size: 16px;
+                padding-right: 15px;
+            }
+
+            .news-ticker-part .news-ticker a {
+                font-size: 16px;
+            }
+
+            .news-ticker-part .news-ticker {
+                height: 35px;
             }
         }
 
         @media (min-width: 768px) and (max-width: 991.98px) {
-
-            .banner-part .banner img {
-                height: 420px !important;
+            .header-part .header .middle h1 {
+                font-size: 40px;
             }
 
-            .about-part .about {
-                margin: 0;
-            }
-
-            .about-part .about h1 {
-                font-size: 30px !important;
-            }
-
-            .administration-part .administration .information {
-                text-align: center;
-                margin: 0;
-            }
-
-            .administration-part .administration .information img {
-                width: 60%;
-                height: 200px;
-            }
-
-            .administration-part .administration .information .data h1 {
-                font-size: 22px;
-                text-align: center;
-            }
-
-            .administration-part .administration .information .data h3 {
+            .header-part .header .middle a {
+                padding: 5px 10px;
+                margin: 0 2px;
                 font-size: 18px;
-                text-align: center;
             }
 
-            .administration-part .administration .information .data p {
+            .nav-part .nav .menu a {
+                font-size: 18px;
+            }
+
+            .nav-part .nav .menu .submenu {
+                top: 47px;
+                width: 120px;
+            }
+
+            .nav-part .nav .menu .submenu .link {
+                padding: 0 5px;
+                padding-top: 5px;
+            }
+
+            .news-ticker-part .news-ticker label,
+            .news-ticker-part .news-ticker a {
                 font-size: 16px;
-            }
-
-            .administration-part .administration .information .data a {
-                font-size: 18px;
-            }
-        }
-
-        @media (min-width: 992px) and (max-width: 1199.98px) {
-
-            .banner-part .banner img {
-                height: 470px !important;
-            }
-
-            .about-part .about h1 {
-                font-size: 36px !important;
-            }
-
-            .about-part .about p {
-                font-size: 16px;
-            }
-
-            .administration-part .administration .information img {
-                height: 200px;
-            }
-
-            .administration-part .administration .information .data h1 {
-                font-size: 22px;
-            }
-
-            .administration-part .administration .information .data a {
-                font-size: 18px;
             }
         }
     </style>
@@ -283,119 +240,135 @@
 <body oncontextmenu="return fals;">
     <div class="container body">
         <!-- ==================== header nav news-ticker part start ==================== -->
-        <header-part></header-part>
-        <!-- ==================== header nav news-ticker part end ==================== -->
-
-        <!-- ==================== banner part start ==================== -->
-        <div class="banner-part">
-            <div class="banner">
-                <img src="images/banner/banner1.jpg" alt="banner1.jpg">
-                <div class="overlay"></div>
-            </div>
-            <div class="banner">
-                <img src="images/banner/banner2.jpg" alt="banner1.jpg">
-                <div class="overlay"></div>
-            </div>
-            <div class="banner">
-                <img src="images/banner/banner3.jpg" alt="banner3.jpg">
-                <div class="overlay"></div>
-            </div>
-        </div>
-        <!-- ==================== banner part end ==================== -->
-
-        <!-- ==================== about part start ==================== -->
-        <div class="about-part">
-            <div class="title">
-                <h1>About Us</h1>
-            </div>
+        <div class="header-part">
             <div class="container">
-                <div class="about">
-                    <h1>ব্রাইট স্কুল অ্যান্ড কলেজের ইতিবৃত্ত</h1>
-                    <p>মহান সৃষ্টিকর্তার অপার মহিমায় ব্রাইট স্কুল অ্যান্ড কলেজ ২০০৪ শিক্ষাবর্ষ হতে শুভযাত্রা শুরু
-                        করে।
-                        সেই থেকে বিদ্যাপীঠের সুসাফল্যের অগ্রগতির অবিরাম অগ্রযাত্রা। সুশিক্ষঅর সুখ্যাতি সুনিশ্চিত
-                        করার
-                        প্রয়োজনে গড়া হয়েছে বিএলডি ফাউন্ডেশনের বুনোট বুনিয়াদ। এ শীর্ষ ফাউন্ডেশনের বিদ্যাপীঠ ব্রাইট
-                        স্কুল
-                        অ্যান্ড কলেজ, ব্রাইট টিউটরিয়্যাল অ্যাকাডেমি এবং ব্রাইট শামসুল উলুম মাদরাসা শিক্ষাদানের
-                        প্রভালোকে
-                        শোভিত আলোকবর্তিকায় উদ্ভাসিত <a href="about.html">Read More...</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- ==================== about part end ==================== -->
-
-        <!-- ==================== message part start ==================== -->
-        <div class="administration-part">
-            <div class="title">
-                <h1>Administration</h1>
-            </div>
-            <div class="container">
-                <div class="administration">
+                <div class="header">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="information">
-                                <div class="row">
-                                    <div class="col-lg-5">
-                                        <img src="images/chairman.jpg" alt="chairman.jpg">
-                                    </div>
-                                    <div class="col-lg-7">
-                                        <div class="data">
-                                            <h1>আলহাজ মাসুদ হাসান লিটন</h1>
-                                            <h3>চেয়ারম্যান</h3>
-                                            <p>জাতীয়, উন্নয়ন ও প্রগতীশীল বংলাদেশ গড়ার সোপান সার্বজনীন সুশিক্ষা।
-                                                যুগোপযোগী মান সম্পন্ন শিক্ষার প্রধান উপকরণ হচ্ছে তথ্য প্রযুক্তির সার্বিক
-                                                উৎকর্ষ সাধন। বিজ্ঞান মনস্ক তথ্য প্রযুক্তি শিক্ষার মানও ধরণ উন্নতিকল্পে
-                                                প্রতিনিয়ত পরিবর্তন ও পরিশিলন হচ্ছে। এই ব্যবহারিক প্রযুক্তি
-                                                <a href="chairman.html">Read More</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 left">
+                            <a href="index.html"><img src="images/logo/bright-logo.png" alt="bright-logo"></a>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 middle">
+                            <h1>Bright School and College</h1>
+                            <div class="button">
+                                <a href="https://bright.odhyyon.com" target="_blank">Teacher</a>
+                                <a class="reverse" href="https://bright.odhyyon.com" target="_blank">Admin</a>
+                                <a href="https://bright.odhyyon.com/portal/Account/Login" target="_blank">Student</a>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="information information2">
-                                <div class="row">
-                                    <div class="col-lg-5">
-                                        <img src="images/principal.jpg" alt="chairman.jpg">
-                                    </div>
-                                    <div class="col-lg-7">
-                                        <div class="data">
-                                            <h1>মঈদুর রহমান জেম</h1>
-                                            <h3>প্রিন্সিপাল</h3>
-                                            <p>জাতীয়, উন্নয়ন ও প্রগতীশীল বংলাদেশ গড়ার সোপান সার্বজনীন সুশিক্ষা।
-                                                যুগোপযোগী মান সম্পন্ন শিক্ষার প্রধান উপকরণ হচ্ছে তথ্য প্রযুক্তির সার্বিক
-                                                উৎকর্ষ সাধন। বিজ্ঞান মনস্ক তথ্য প্রযুক্তি শিক্ষার মানও ধরণ উন্নতিকল্পে
-                                                প্রতিনিয়ত পরিবর্তন ও পরিশিলন হচ্ছে। এই ব্যবহারিক প্রযুক্তি
-                                                <a href="principal.html">Read More</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 right">
+                            <a href="https://mujib100.gov.bd/" target="_blank"><img src="images/logo/mujib-logo.png"
+                                    alt="mujib-logo"></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- ==================== message part end ==================== -->
 
-        <!-- ==================== footer part start ==================== -->
-        <footer-part></footer-part>
-        <!-- ==================== footer part end ==================== -->
+
+
+
+        <div class="nav-part">
+            <div class="container">
+                <div class="nav">
+                    <ul class="menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Administration<span></span></a>
+                            <ul class="submenu">
+                                <li class="link"><a href="#">Chairman</a></li>
+                                <li class="link"><a href="#">Vice Chairman</a></li>
+                                <li class="link"><a href="#">Principal</a></li>
+                                <li class="link"><a href="#">Vice Principal</a></li>
+                                <li class="link"><a href="#">Administrative</a></li>
+                                <li class="link"><a href="#">IT Officer</a></li>
+                                <li class="link"><a href="#">Account Officer</a></li>
+                                <li class="link"><a href="#">Staff</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Teacher<span></span></a>
+                            <ul class="submenu">
+                                <li class="link"><a href="#">Primary</a></li>
+                                <li class="link"><a href="#">Cadet</a></li>
+                                <li class="link"><a href="#">School</a></li>
+                                <li class="link"><a href="#">College</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Student<span></span></a>
+                            <ul class="submenu">
+                                <li class="link"><a href="#">Pre Primary</a></li>
+                                <li class="link"><a href="#">Nursery</a></li>
+                                <li class="link"><a href="#">One</a></li>
+                                <li class="link"><a href="#">Two</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="news-ticker-part">
+            <div class="container">
+                <div class="news-ticker">
+                    <label>Latest News</label>
+                    <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+                        <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
+                        <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
+                        <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
+                    </marquee>
+                </div>
+            </div>
+        </div>
+
+        <div class="notice-part">
+            <div class="container">
+                <div class="notice">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Subject</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody id="data">
+                            <label>Latest Notice</label>
+                            <tr></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 
+    <script>
+        fetch("js/json/notice.json")
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (notices) {
+                let placeholder = document.querySelector("#data");
+                let out = "";
+                for (let notice of notices) {
+                    out += `
+			<tr>
+				<td class="subject">${notice.subject}</td>
+				<td><a href="${notice.link}" target="_blank"><button>Download</button></a></td>
+				<td>${notice.date}</td>
+			</tr>
+		`;
+                }
 
+                placeholder.innerHTML = out;
+            });
+    </script>
 
     <!-- ==================== javascript part start ==================== -->
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 
     <script src="js/slick.min.js"></script>
-
-    <!-- <script src="js/template/header-footer.js"></script> -->
     <script src="js/script.js"></script>
     <!-- ==================== javascript part end ==================== -->
 </body>
