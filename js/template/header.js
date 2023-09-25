@@ -90,6 +90,11 @@ customElements.define('header-part', HeaderPart);
 var style = document.createElement('style');
 style.innerHTML = `
         /* ==================== header part start ==================== */
+        header-part{
+            // position: sticky;
+            top: 0;
+        }
+
         .header-part {
             background: #eeeeee;
             padding: 20px 0;
@@ -146,6 +151,10 @@ style.innerHTML = `
         }
         /* ==================== header part end ==================== */
         /* ==================== nav part start ==================== */
+        .nav-part {
+            background: #ffffff;
+        }
+        
         .nav-part .nav .menu {
             display: flex;
             margin: auto;
@@ -205,6 +214,7 @@ style.innerHTML = `
         /* ==================== news-ticker-part start ==================== */
         .news-ticker-part {
             background: #000000;
+            border-bottom: 2px solid #f77f00;
         }
         
         .news-ticker-part .news-ticker {
@@ -462,179 +472,6 @@ style.innerHTML = `
     .news-ticker-part .news-ticker a {
         font-size: 16px !important;
     }
-}
-`;
-document.head.appendChild(style);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// =================================== Footer Part Start =================================== //
-class FooterPart extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
-        <div class="footer-part">
-                <div class="container">
-                    <div class="footer">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-4 left">
-                            <a href="index.html"><img src="images/logo/bright-logo.png" alt="bright-logo"></a>
-                            <h1>BRIGHT SCHOOL AND COLLEGE</h1>
-                            <div class="social">
-                                <a href="https://www.facebook.com/shaifulkingdom" target="_blank">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 middle">
-                            <h2><u>Useful Links</u></h2>
-                            <h3><a href="https://moedu.gov.bd/" target="_blank">Ministry of Education</a></h3>
-                            <h3><a href="https://www.shed.gov.bd/" target="_blank">Secondary and Higher Education Division</a></h3>
-                            <h3><a href="https://banbeis.gov.bd/" target="_blank">BANBEIS</a></h3>
-                            <h3><a href="https://www.mopme.gov.bd/" target="_blank">Ministry of Primary & Mass Education</a></h3>
-                            <h3><a href="http://www.nape.gov.bd/" target="_blank">National Academy for Primary Education</a></h3>
-                            <h3><a href="http://nctb.gov.bd/site/page/079828a6-18e6-44c1-9a2d-59f8d223199c" target="_blank">ebook</a></h3>
-                            <h3><a href="http://nctb.gov.bd/" target="_blank">National Curriculum & Text Board (NCTB)</a></h3> 
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 right">
-                            <h2><u>Contact Adress</u></h2>
-                            <h3>Main Campus : <br> 132, Sorai Road, Donia, Kadamtoli, Dhaka-1236.</h3>
-                            <h3>Phone : +880 1799 968777</h3>
-                            <div class="mapouter">
-                                <div class="gmap_canvas"><iframe id="gmap_canvas"
-                                        src="https://maps.google.com/maps?q=bright school and college&t=&z=10&ie=UTF8&iwloc=&output=embed"
-                                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <p>© Copyright 2022. Bright School and College. Design & Developed by : <a class="color"
-                            href="https://shaifulkingdom.github.io" target="_blank">"Shaiful Islam"</a></p>
-                    </div>
-                </div>
-            </div>
-        `
-    }
-}
-customElements.define('footer-part', FooterPart);
-
-var style = document.createElement('style');
-style.innerHTML = `
-.footer-part {
-    background: #000000;
-    padding: 20px 0;
-    margin-top: 40px;
-    box-shadow: 0 -7px 5px -3px #ccc;
-}
-
-.footer-part .footer .left {
-    text-align: center;
-}
-
-.footer-part .footer .left img {
-    width: 100px;
-}
-
-.footer-part .footer .left h1 {
-    margin-top: 10px;
-    font-family: 'oswald', sans-serif;
-    font-size: 20px;
-    color: #fe3b3b;
-}
-
-.footer-part .footer .left .social {
-    text-align: center;
-    margin-top: 30px;
-}
-
-.footer-part .footer .left .social a i {
-    width: 35px;
-    height: 35px;
-    line-height: 38px;
-    font-size: 16px;
-    color: #e9e9ea;
-    margin: 0 2px 5px 2px;
-    background: linear-gradient(#fe3b3b, #090e36);
-    transition: .6s;
-}
-
-.footer-part .footer .left .social a i:hover {
-    border-radius: 50%;
-    transition: .6s;
-}
-
-.footer-part .footer .right h2,
-.footer-part .footer .middle h2 {
-    font-family: 'Oswald', sans-serif;
-    margin-top: 10px;
-    font-size: 30px;
-    color: #e9e9ea;
-    text-align: justify;
-}
-
-.footer-part .footer .right h3,
-.footer-part .footer .middle a {
-    margin-top: 5px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
-    text-align: justify;
-    color: #f77f00;
-}
-
-.footer-part .footer .right .mapouter {
-    margin-top: 20px;
-}
-
-.footer-part .footer .right .mapouter iframe{
-    width: 100%;
-}
-
-.footer-part .footer p {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    color: #e9e9ea;
-    margin-top: 30px;
-}
-
-.footer-part .footer a:hover {
-    color: #e9e9ea;
 }
 `;
 document.head.appendChild(style);
