@@ -28,7 +28,7 @@ class FooterPart extends HTMLElement {
                             </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 right">
                             <h2><u>Contact Adress</u></h2>
-                            <h3>Main Campus : <br> 132, Sorai Road, Donia, Kadamtoli, Dhaka-1236.</h3>
+                            <h3>Main Campus : <br> 132, Sorai, Donia, Kadamtoli, Dhaka-1236.</h3>
                             <h3>Phone : +880 1799 968777</h3>
                             <div class="mapouter">
                                 <div class="gmap_canvas"><iframe id="gmap_canvas"
@@ -53,7 +53,7 @@ style.innerHTML = `
     .footer-part {
         background: #000000;
         padding: 20px 0;
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
     .footer-part .footer .left {
@@ -79,7 +79,7 @@ style.innerHTML = `
     .footer-part .footer .left .social a i {
         width: 35px;
         height: 35px;
-        line-height: 38px;
+        line-height: 35px;
         font-size: 16px;
         color: #e9e9ea;
         margin: 0 2px 5px 2px;
@@ -147,12 +147,12 @@ style.innerHTML = `
     }
 
     .footer-part .footer .left .social {
-        margin-top: 10px !important;
+        margin-top: 10px;
     }
 
     .footer-part .footer .right h2,
     .footer-part .footer .middle h2 {
-        font-size: 20px !important;
+        font-size: 22px !important;
         text-align: center !important;
     }
 
@@ -169,16 +169,17 @@ style.innerHTML = `
 
     .footer-part .footer p {
         font-size: 12px !important;
+        margin-top: 10px;
     }
 }
 
 @media (min-width: 470px) and (max-width: 575.98px) {
     .footer-part .footer .left img {
-        width: 60px !important;
+        width: 80px !important;
     }
 
     .footer-part .footer .left .social {
-        margin-top: 10px !important;
+        margin-top: 10px;
     }
 
     .footer-part .footer .right h2,
@@ -199,7 +200,8 @@ style.innerHTML = `
     }
 
     .footer-part .footer p {
-        font-size: 16px !important;
+        font-size: 14px !important;
+        margin-top: 10px;
     }
 }
 
@@ -208,19 +210,30 @@ style.innerHTML = `
         width: 60px !important;
     }
 
+    .footer-part .footer .left h2 {
+        font-size: 12px;
+    }
+
     .footer-part .footer .left .social {
-        margin-top: 10px !important;
+        margin-top: 10px;
+    }
+
+    .footer-part .footer .left .social a i {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 14px;
     }
 
     .footer-part .footer .right h2,
     .footer-part .footer .middle h2 {
-        font-size: 22px !important;
+        font-size: 18px !important;
         text-align: center !important;
     }
 
     .footer-part .footer .right h3,
     .footer-part .footer .middle a {
-        font-size: 14px !important;
+        font-size: 12px !important;
     }
 
     .footer-part .footer .middle,
@@ -230,22 +243,31 @@ style.innerHTML = `
     }
 
     .footer-part .footer p {
-        font-size: 16px !important;
+        font-size: 12px !important;
+        margin-top: 20px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .footer-part .footer .left img {
-        width: 60px !important;
+        width: 80px !important;
+    }
+
+    .footer-part .footer .left h2 {
+        font-size: 18px;
     }
 
     .footer-part .footer .left .social {
-        margin-top: 10px !important;
+        margin-top: 10px;
+    }
+
+    .footer-part .footer .left .social a i {
+        font-size: 14px;
     }
 
     .footer-part .footer .right h2,
     .footer-part .footer .middle h2 {
-        font-size: 22px !important;
+        font-size: 20px !important;
         text-align: center !important;
     }
 
