@@ -91,7 +91,7 @@ var style = document.createElement('style');
 style.innerHTML = `
         /* ==================== header part start ==================== */
         header-part{
-            // position: sticky;
+            position: sticky;
             top: 0;
         }
 
