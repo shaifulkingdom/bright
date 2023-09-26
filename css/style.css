@@ -50,14 +50,14 @@ a:focus {
     .title h2 {
         margin: 10px 0;
         font-size: 30px;
-    }         
+    }
 }
 
 @media (min-width: 470px) and (max-width: 575.98px) {
     .title h2 {
         margin: 10px 0;
         font-size: 40px;
-    }  
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -108,65 +108,3 @@ a:focus {
     font-size: 18px;
     font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-.notice-part {
-    display: none;
-    background: #000000;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #ffffff;
-    font-size: 18px;
-    padding: 10px 0;
-}
-
-.notice-part .notice label {
-    position: absolute;
-    color: #f77f00;
-    font-weight: bold;
-    background: #000000;
-    border-right: 2px solid #f77f00;
-    padding-right: 20px;
-    z-index: 1;
-}
-
-.notice-part .notice thead,
-.notice-part .notice td {
-    display: none;
-}
-
-.notice-part .notice .subject {
-    display: block;
-}
-
-.notice-part .notice tbody {
-    display: flex;
-    overflow: hidden;
-    padding-left: 200px;
-}
-
-.notice-part .notice tbody tr {
-    padding-left: 50px;
-}
-
-/* .notice-part .notice .subject {
-    animation: notice 5s linear infinite;
-} */
-
-/* @keyframes notice {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-100%);
-    }
-} */
