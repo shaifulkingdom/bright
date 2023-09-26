@@ -37,20 +37,48 @@ a:focus {
 }
 
 .title h2 {
-    position: relative;
-    padding: 20px 0 0 0;
-    text-align: center;
+    margin: 20px 0;
     font-family: 'eng-title';
     font-size: 70px;
-    font-weight: 600;
-    color: #fe3b3b;
-    text-transform: capitalize;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
     text-shadow: -2px 1px 0px #cccccc;
 }
 
 .body {
     padding: 0;
     box-shadow: 0px 0px 10px #555555;
+}
+
+.about-part .about {
+    background: #eeeeee;
+    box-shadow: 0 10px 10px -10px #555555;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.about-part .about h3 {
+    font-family: 'bn-title';
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.about-part .about p {
+    font-family: 'Tiro Bangla', serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify;
+}
+
+.about-part .about p a {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ff0000;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 

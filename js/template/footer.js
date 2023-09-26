@@ -8,7 +8,7 @@ class FooterPart extends HTMLElement {
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-4 left">
                             <a href="index.html"><img src="images/logo/bright-logo.png" alt="bright-logo"></a>
-                            <h1>BRIGHT SCHOOL AND COLLEGE</h1>
+                            <h2>BRIGHT SCHOOL AND COLLEGE</h2>
                             <div class="social">
                                 <a href="https://www.facebook.com/shaifulkingdom" target="_blank">
                                     <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -17,14 +17,15 @@ class FooterPart extends HTMLElement {
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 middle">
                             <h2><u>Useful Links</u></h2>
-                            <h3><a href="https://moedu.gov.bd/" target="_blank">Ministry of Education</a></h3>
-                            <h3><a href="https://www.shed.gov.bd/" target="_blank">Secondary and Higher Education Division</a></h3>
-                            <h3><a href="https://banbeis.gov.bd/" target="_blank">BANBEIS</a></h3>
-                            <h3><a href="https://www.mopme.gov.bd/" target="_blank">Ministry of Primary & Mass Education</a></h3>
-                            <h3><a href="http://www.nape.gov.bd/" target="_blank">National Academy for Primary Education</a></h3>
-                            <h3><a href="http://nctb.gov.bd/site/page/079828a6-18e6-44c1-9a2d-59f8d223199c" target="_blank">ebook</a></h3>
-                            <h3><a href="http://nctb.gov.bd/" target="_blank">National Curriculum & Text Board (NCTB)</a></h3> 
-                        </div>
+                            <div class="link">
+                                <a href="https://moedu.gov.bd/" target="_blank">Ministry of Education</a>
+                                <a href="https://www.shed.gov.bd/" target="_blank">Secondary and Higher Education Division</a>
+                                <a href="https://banbeis.gov.bd/" target="_blank">BANBEIS</a>
+                                <a href="https://www.mopme.gov.bd/" target="_blank">Ministry of Primary & Mass Education</a>
+                                <a href="http://www.nape.gov.bd/" target="_blank">National Academy for Primary Education</a>
+                                <a href="http://nctb.gov.bd/site/page/079828a6-18e6-44c1-9a2d-59f8d223199c" target="_blank">ebook</a>
+                                <a href="http://nctb.gov.bd/" target="_blank">National Curriculum & Text Board (NCTB)</a> </div>
+                            </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 right">
                             <h2><u>Contact Adress</u></h2>
                             <h3>Main Campus : <br> 132, Sorai Road, Donia, Kadamtoli, Dhaka-1236.</h3>
@@ -63,11 +64,11 @@ style.innerHTML = `
         width: 100px;
     }
 
-    .footer-part .footer .left h1 {
+    .footer-part .footer .left h2 {
         margin-top: 10px;
         font-family: 'oswald', sans-serif;
         font-size: 20px;
-        color: #fe3b3b;
+        color: #ff0000;
     }
 
     .footer-part .footer .left .social {
@@ -82,7 +83,7 @@ style.innerHTML = `
         font-size: 16px;
         color: #e9e9ea;
         margin: 0 2px 5px 2px;
-        background: linear-gradient(#fe3b3b, #090e36);
+        background: linear-gradient(#ff0000, #090e36);
         transition: .6s;
     }
 
@@ -97,18 +98,19 @@ style.innerHTML = `
         margin-top: 10px;
         font-size: 30px;
         color: #ffffff;
+        padding-bottom: 10px;
     }
 
     .footer-part .footer .right h3,
     .footer-part .footer .middle a {
-        margin-top: 5px;
+        display: block;
         font-family: 'Josefin Sans', sans-serif;
         font-size: 16px;
         color: #f77f00;
     }
 
     .footer-part .footer .right .mapouter {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .footer-part .footer .right .mapouter iframe{
@@ -123,8 +125,12 @@ style.innerHTML = `
         margin-top: 30px;
     }
 
+    .footer-part .footer p a {
+        color: #ff0000;
+    }
+
     .footer-part .footer a:hover {
-        color: #e9e9ea;
+        color: #f77f00;
     }
         
 `;

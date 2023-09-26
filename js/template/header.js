@@ -91,7 +91,7 @@ var style = document.createElement('style');
 style.innerHTML = `
         /* ==================== header part start ==================== */
         header-part{
-            position: sticky;
+            // position: sticky;
             top: 0;
         }
 
@@ -115,9 +115,10 @@ style.innerHTML = `
             font-family: 'Oswald', sans-serif;
             font-size: 50px;
             font-weight: bold;
-            color: #cc2a2a;
+            color: #ff0000;
             text-transform: uppercase;
             text-align: center;
+            text-shadow: 2px 2px 0px #cccccc;
         }
         
         .header-part .header .middle .button {
