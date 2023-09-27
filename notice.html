@@ -18,13 +18,67 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <style>
-        @media (min-width: 300px) and (max-width: 469.98px) {}
+        @media (min-width: 300px) and (max-width: 469.98px) {
 
-        @media (min-width: 470px) and (max-width: 575.98px) {}
+            .notice-part .notice table th,
+            .notice-part .notice table td {
+                font-size: 12px;
+                padding: 0;
+            }
 
-        @media (min-width: 576px) and (max-width: 767.98px) {}
+            .notice-part .notice table td.subject {
+                padding-left: 5px;
+            }
 
-        @media (min-width: 768px) and (max-width: 991.98px) {}
+            .notice-part .notice table th.second,
+            .notice-part .notice table td.date {
+                display: none;
+            }
+        }
+
+        @media (min-width: 470px) and (max-width: 575.98px) {
+
+            .notice-part .notice table th,
+            .notice-part .notice table td {
+                font-size: 14px;
+                padding: 0;
+            }
+
+            .notice-part .notice table td.subject {
+                padding-left: 5px;
+            }
+
+            .notice-part .notice table th.second,
+            .notice-part .notice table td.date {
+                display: none;
+            }
+        }
+
+        @media (min-width: 576px) and (max-width: 767.98px) {
+
+            .notice-part .notice table th,
+            .notice-part .notice table td {
+                font-size: 14px;
+                padding: 0;
+            }
+
+            .notice-part .notice table td.subject {
+                padding-left: 5px;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+
+            .notice-part .notice table th,
+            .notice-part .notice table td {
+                font-size: 16px;
+                padding: 0;
+            }
+
+            .notice-part .notice table td.subject {
+                padding-left: 10px;
+            }
+        }
     </style>
 </head>
 
@@ -44,9 +98,9 @@
                     <table>
                         <thead>
                             <tr>
-                                <th>Subject</th>
-                                <th>Date</th>
-                                <th>Download</th>
+                                <th class="first">Subject</th>
+                                <th class="second">Date</th>
+                                <th class="third">Download</th>
                             </tr>
                         </thead>
                         <tbody id="data-output">

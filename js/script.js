@@ -80,7 +80,7 @@ fetch("js/json/notice.json")
             out += `
 			<tr>
 				<td class="subject">${notice.subject}</td>
-				<td>${notice.date}</td>
+				<td class="date">${notice.date}</td>
 				<td><a href="${notice.link}" target="_blank"><button>Download</button></a></td>
 			</tr>
 		`;

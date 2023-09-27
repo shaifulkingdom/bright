@@ -5,15 +5,20 @@
     padding: 20px;
 }
 
-.notice-part .notice button{
-    border: none;
-}
-
-.notice-part .notice table{
+.notice-part .notice table {
     width: 100%;
 }
 
-.notice-part .notice table th{
+.notice-part .notice table th.first {
+    width: 70%;
+}
+
+.notice-part .notice table th.second,
+.notice-part .notice table th.third {
+    width: 15%;
+}
+
+.notice-part .notice table th {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
     color: #000000;
@@ -23,7 +28,7 @@
     border: thin solid #bbbbbb;
 }
 
-.notice-part .notice table td{
+.notice-part .notice table td {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     color: #000000;
@@ -32,6 +37,10 @@
     border: thin solid #bbbbbb;
 }
 
-.notice-part .notice table td.subject{
-    text-align: justify;
+.notice-part .notice table td.subject {
+    text-align: left;
+}
+
+.notice-part .notice button {
+    border: none;
 }
