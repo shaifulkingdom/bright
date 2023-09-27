@@ -32,7 +32,7 @@ class HeaderPart extends HTMLElement {
                 <div class="nav">
                     <ul class="menu">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About Us</a></li>
+                        <li><a href="about.html">About Us</a></li>
                         <li><a href="#">Administration<span></span></a>
                             <ul class="submenu">
                                 <li class="link"><a href="#">Chairman</a></li>
