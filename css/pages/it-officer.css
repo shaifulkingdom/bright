@@ -1,0 +1,6 @@
+.demo-part .demo {
+    background: #eeeeee;
+    box-shadow: 0 10px 10px -10px #555555;
+    border-radius: 5px;
+    padding: 20px;
+}
