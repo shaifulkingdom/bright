@@ -31,7 +31,7 @@ class HeaderPart extends HTMLElement {
             <div class="container">
                 <div class="nav">
                     <ul class="menu">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Administration<span></span></a>
                             <ul class="submenu">
@@ -61,6 +61,7 @@ class HeaderPart extends HTMLElement {
                                 <li class="link"><a href="#">Two</a></li>
                             </ul>
                         </li>
+                        <li><a href="notice.html">Notice</a></li>
                     </ul>
                 </div>
             </div>
@@ -91,7 +92,7 @@ var style = document.createElement('style');
 style.innerHTML = `
         /* ==================== header part start ==================== */
         header-part{
-            position: sticky;
+            // position: sticky;
             top: 0;
         }
 

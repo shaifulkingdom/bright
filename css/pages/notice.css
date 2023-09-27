@@ -4,3 +4,34 @@
     border-radius: 5px;
     padding: 20px;
 }
+
+.notice-part .notice button{
+    border: none;
+}
+
+.notice-part .notice table{
+    width: 100%;
+}
+
+.notice-part .notice table th{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border: thin solid #bbbbbb;
+}
+
+.notice-part .notice table td{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    border: thin solid #bbbbbb;
+}
+
+.notice-part .notice table td.subject{
+    text-align: justify;
+}
