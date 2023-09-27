@@ -35,10 +35,10 @@ class HeaderPart extends HTMLElement {
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="#">Administration<span></span></a>
                             <ul class="submenu">
-                                <li class="link"><a href="#">Chairman</a></li>
-                                <li class="link"><a href="#">Vice Chairman</a></li>
-                                <li class="link"><a href="#">Principal</a></li>
-                                <li class="link"><a href="#">Vice Principal</a></li>
+                                <li class="link"><a href="chairman.html">Chairman</a></li>
+                                <li class="link"><a href="vice-chairman.html">Vice Chairman</a></li>
+                                <li class="link"><a href="principal.html">Principal</a></li>
+                                <li class="link"><a href="vice-principal.html">Vice Principal</a></li>
                                 <li class="link"><a href="#">Administrative</a></li>
                                 <li class="link"><a href="#">IT Officer</a></li>
                                 <li class="link"><a href="#">Account Officer</a></li>
@@ -92,7 +92,7 @@ var style = document.createElement('style');
 style.innerHTML = `
         /* ==================== header part start ==================== */
         header-part{
-            // position: sticky;
+            position: sticky;
             top: 0;
         }
 
@@ -175,7 +175,7 @@ style.innerHTML = `
         }
         
         .nav-part .nav .menu li a:hover {
-            color: #cc2a2a;
+            color: #ff0000;
             font-weight: bold;
         }
         

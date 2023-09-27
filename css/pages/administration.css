@@ -3,38 +3,30 @@
     box-shadow: 0 10px 10px -10px #000000;
     border-radius: 5px;
     padding: 20px;
-    margin-top: 20px;
-}
-
-.person-part .person .information {
-    box-shadow: 0 10px 10px -10px #090e36;
-    border-radius: 5px;
-    padding: 20px;
-    color: #090e36;
     text-align: center;
 }
 
-.person-part .person .information img {
+.person-part .person img {
     width: 200px;
-    border: 2px solid #000000;
+    border: thin solid #bbbbbb;
     border-radius: 5px;
 }
 
-.person-part .person .information .data h1 {
+.person-part .person .data h3 {
     margin-top: 10px;
     font-family: 'bn-title';
     font-size: 36px;
     font-weight: bold;
 }
 
-.person-part .person .information .data h3 {
+.person-part .person .data h4 {
     font-family: 'bn-title';
     font-size: 26px;
     font-weight: bold;
 }
 
-.person-part .person .information .data p {
-    font-family: 'sutonny';
+.person-part .person .data p {
+    font-family: 'Tiro Bangla', serif;
     font-size: 18px;
     text-align: justify;
     margin-top: 20px;
