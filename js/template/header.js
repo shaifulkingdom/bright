@@ -27,59 +27,59 @@ class HeaderPart extends HTMLElement {
         </div>
         <!-- ==================== header part end ==================== -->
         <!-- ==================== nav part start ==================== -->
-        <div class="nav-part">
-            <div class="container">
-                <div class="nav">
-                    <ul class="menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="#">Administration<span></span></a>
-                            <ul class="submenu">
-                                <li class="link"><a href="chairman.html">Chairman</a></li>
-                                <li class="link"><a href="vice-chairman.html">Vice Chairman</a></li>
-                                <li class="link"><a href="principal.html">Principal</a></li>
-                                <li class="link"><a href="vice-principal.html">Vice Principal</a></li>
-                                <li class="link"><a href="#">Administrative</a></li>
-                                <li class="link"><a href="it-officer.html">IT Officer</a></li>
-                                <li class="link"><a href="#">Account Officer</a></li>
-                                <li class="link"><a href="#">Staff</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Teacher<span></span></a>
-                            <ul class="submenu">
-                                <li class="link"><a href="#">Primary</a></li>
-                                <li class="link"><a href="#">Cadet</a></li>
-                                <li class="link"><a href="#">School</a></li>
-                                <li class="link"><a href="#">College</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Student<span></span></a>
-                            <ul class="submenu">
-                                <li class="link"><a href="#">Pre Primary</a></li>
-                                <li class="link"><a href="#">Nursery</a></li>
-                                <li class="link"><a href="#">One</a></li>
-                                <li class="link"><a href="#">Two</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="notice.html">Notice</a></li>
-                    </ul>
-                </div>
+        <div class="nav-news-part">
+    <div class="nav-part">
+        <div class="container">
+            <div class="nav">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Administration<span></span></a>
+                        <ul class="submenu">
+                            <li class="link"><a href="chairman.html">Chairman</a></li>
+                            <li class="link"><a href="vice-chairman.html">Vice Chairman</a></li>
+                            <li class="link"><a href="principal.html">Principal</a></li>
+                            <li class="link"><a href="vice-principal.html">Vice Principal</a></li>
+                            <li class="link"><a href="#">Administrative</a></li>
+                            <li class="link"><a href="it-officer.html">IT Officer</a></li>
+                            <li class="link"><a href="#">Account Officer</a></li>
+                            <li class="link"><a href="#">Staff</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Teacher<span></span></a>
+                        <ul class="submenu">
+                            <li class="link"><a href="#">Primary</a></li>
+                            <li class="link"><a href="#">Cadet</a></li>
+                            <li class="link"><a href="#">School</a></li>
+                            <li class="link"><a href="#">College</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Student<span></span></a>
+                        <ul class="submenu">
+                            <li class="link"><a href="#">Pre Primary</a></li>
+                            <li class="link"><a href="#">Nursery</a></li>
+                            <li class="link"><a href="#">One</a></li>
+                            <li class="link"><a href="#">Two</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="notice.html">Notice</a></li>
+                </ul>
             </div>
         </div>
-        <!-- ==================== nav part end ==================== -->
-        <!-- ==================== news-ticker part start ==================== -->
-        <div class="news-ticker-part">
-            <div class="container">
-                <div class="news-ticker">
-                    <label>Latest News</label>
-                    <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
-                        <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
-                        <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
-                        <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
-                    </marquee>
-                </div>
+    </div>
+    <div class="news-ticker-part">
+        <div class="container">
+            <div class="news-ticker">
+                <label>Latest News</label>
+                <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+                    <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
+                    <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
+                    <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
+                </marquee>
             </div>
         </div>
+    </div>
+</div>
         <!-- ==================== news-ticker part end ==================== -->
     `
     }
