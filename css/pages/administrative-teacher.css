@@ -1,0 +1,52 @@
+.person-part .person {
+    background: #eeeeee;
+    box-shadow: 0 10px 10px -10px #555555;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.person-part .person table {
+    width: 100%;
+}
+
+.person-part .person table th.first {
+    width: 10%;
+}
+
+.person-part .person table th.second,
+.person-part .person table th.third,
+.person-part .person table th.fourth {
+    width: 20%;
+}
+
+.person-part .person table th.fifth {
+    width: 30%;
+}
+
+.person-part .person table th {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border: thin solid #bbbbbb;
+}
+
+.person-part .person table td {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    border: thin solid #bbbbbb;
+}
+
+.person-part .person table td.image {
+    width: 10%;
+    text-align: left;
+}
+
+.person-part .person table td img {
+    width: 100%;
+}

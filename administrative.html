@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="images/logo/bright-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/pages/notice.css">
+    <link rel="stylesheet" href="css/pages/administrative-teacher.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald&family=Tiro+Bangla&display=swap">
@@ -19,64 +19,49 @@
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <style>
         @media (min-width: 300px) and (max-width: 469.98px) {
-
-            .notice-part .notice table th,
-            .notice-part .notice table td {
-                font-size: 12px;
-                padding: 0;
-            }
-
-            .notice-part .notice table td.subject {
-                padding-left: 5px;
-            }
-
-            .notice-part .notice table th.second,
-            .notice-part .notice table td.date {
+            .person-part .person table th.fifth,
+            .person-part .person table td.email {
                 display: none;
+            }
+
+            .person-part .person table th,
+            .person-part .person table td {
+                font-size: 12px;
+                padding: 2px;
             }
         }
 
         @media (min-width: 470px) and (max-width: 575.98px) {
-
-            .notice-part .notice table th,
-            .notice-part .notice table td {
-                font-size: 14px;
-                padding: 0;
-            }
-
-            .notice-part .notice table td.subject {
-                padding-left: 5px;
-            }
-
-            .notice-part .notice table th.second,
-            .notice-part .notice table td.date {
+            .person-part .person table th.fifth,
+            .person-part .person table td.email {
                 display: none;
+            }
+
+            .person-part .person table th,
+            .person-part .person table td {
+                font-size: 14px;
+                padding: 2px;
             }
         }
 
         @media (min-width: 576px) and (max-width: 767.98px) {
-
-            .notice-part .notice table th,
-            .notice-part .notice table td {
-                font-size: 14px;
-                padding: 0;
+            .person-part .person table th.fifth,
+            .person-part .person table td.email {
+                display: none;
             }
 
-            .notice-part .notice table td.subject {
-                padding-left: 5px;
+            .person-part .person table th,
+            .person-part .person table td {
+                font-size: 16px;
+                padding: 4px;
             }
         }
 
         @media (min-width: 768px) and (max-width: 991.98px) {
-
-            .notice-part .notice table th,
-            .notice-part .notice table td {
+            .person-part .person table th,
+            .person-part .person table td {
                 font-size: 16px;
-                padding: 0;
-            }
-
-            .notice-part .notice table td.subject {
-                padding-left: 10px;
+                padding: 2px;
             }
         }
     </style>
@@ -88,19 +73,21 @@
         <header-part></header-part>
         <!-- ==================== header nav news-ticker part end ==================== -->
 
-        <!-- ==================== demo part start ==================== -->
-        <div class="notice-part">
+        <!-- ==================== administrative part start ==================== -->
+        <div class="person-part">
             <div class="title">
-                <h2>Notice</h2>
+                <h2>Administrative</h2>
             </div>
             <div class="container">
-                <div class="notice">
+                <div class="person">
                     <table>
                         <thead>
                             <tr>
-                                <th class="first">Subject</th>
-                                <th class="second">Date</th>
-                                <th class="third">Download</th>
+                                <th class="first">Image</th>
+                                <th class="second">Name</th>
+                                <th class="third">Designation</th>
+                                <th class="fourth">Phone Number</th>
+                                <th class="fifth">Email</th>
                             </tr>
                         </thead>
                         <tbody id="data-output">
@@ -110,12 +97,13 @@
                 </div>
             </div>
         </div>
-        <!-- ==================== demo part end ==================== -->
+        <!-- ==================== administrative part end ==================== -->
 
         <!-- ==================== footer-part start ==================== -->
         <footer-part></footer-part>
         <!-- ==================== footer-part end ==================== -->
     </div>
+
 
 
 
@@ -131,7 +119,7 @@
 
     <script src="js/template/header.js"></script>
     <script src="js/template/footer.js"></script>
-    <script src="js/template/notice.js"></script>
+    <script src="js/template/administrative.js"></script>
 
     <script src="js/script.js"></script>
     <!-- ==================== javascript part end ==================== -->

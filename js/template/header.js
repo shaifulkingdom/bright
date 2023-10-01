@@ -40,7 +40,7 @@ class HeaderPart extends HTMLElement {
                                     <li class="link"><a href="vice-chairman.html">Vice Chairman</a></li>
                                     <li class="link"><a href="principal.html">Principal</a></li>
                                     <li class="link"><a href="vice-principal.html">Vice Principal</a></li>
-                                    <li class="link"><a href="#">Administrative</a></li>
+                                    <li class="link"><a href="administrative.html">Administrative</a></li>
                                     <li class="link"><a href="it-officer.html">IT Officer</a></li>
                                     <li class="link"><a href="#">Account Officer</a></li>
                                     <li class="link"><a href="#">Staff</a></li>
