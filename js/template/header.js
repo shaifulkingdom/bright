@@ -42,8 +42,8 @@ class HeaderPart extends HTMLElement {
                                     <li class="link"><a href="vice-principal.html">Vice Principal</a></li>
                                     <li class="link"><a href="administrative.html">Administrative</a></li>
                                     <li class="link"><a href="it-officer.html">IT Officer</a></li>
-                                    <li class="link"><a href="#">Account Officer</a></li>
-                                    <li class="link"><a href="#">Staff</a></li>
+                                    <li class="link"><a href="accounts-officer.html">Accounts Officer</a></li>
+                                    <li class="link"><a href="staff.html">Staff</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Teacher<span></span></a>
@@ -191,7 +191,7 @@ style.innerHTML = `
         }
         
         .nav-part .nav .menu .submenu .link {
-            padding: 0 10px;
+            padding: 0 5px;
             padding-top: 5px;
         }
         
