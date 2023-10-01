@@ -307,7 +307,7 @@ style.innerHTML = `
     }
 
     .nav-part .nav .menu .submenu .link {
-        padding: 0 5px !important;
+        padding: 0 3px !important;
         padding-top: 5px !important;
     }
 
@@ -374,7 +374,7 @@ style.innerHTML = `
     }
 
     .nav-part .nav .menu .submenu .link {
-        padding: 0 5px !important;
+        padding: 0 2px !important;
         padding-top: 5px !important;
     }
 
