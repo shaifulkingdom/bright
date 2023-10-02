@@ -1,9 +1,9 @@
 [{
-		"image": "images/officer/computer/shaiful.jpg",
-		"name": "Shaiful Islam",
-		"designation": "IT Incharge",
-		"phone": "01787448148",
-		"email": "backshaiful18@gmail.com"
+		"image": "images/officer/computer/rony.jpg",
+		"name": "Saidul Islam",
+		"designation": "Head of Department",
+		"phone": "01922277739",
+		"email": "-"
 	},
 
 	{
@@ -15,18 +15,34 @@
 	},
 
 	{
-		"image": "images/officer/computer/shaiful.jpg",
-		"name": "Shaiful Islam",
-		"designation": "IT Incharge",
-		"phone": "01787448148",
-		"email": "backshaiful18@gmail.com"
+		"image": "images/officer/computer/arif.jpg",
+		"name": "Ariful Islam",
+		"designation": "IT officer",
+		"phone": "01521470597",
+		"email": "-"
 	},
 
 	{
-		"image": "images/officer/computer/shaiful.jpg",
-		"name": "Shaiful Islam",
-		"designation": "IT Incharge",
-		"phone": "01787448148",
-		"email": "backshaiful18@gmail.com"
+		"image": "images/officer/computer/habibullah.jpeg",
+		"name": "Habibullah Masabih",
+		"designation": "IT officer",
+		"phone": "01611655998",
+		"email": "-"
+	},
+
+	{
+		"image": "images/officer/computer/mimi.jpg",
+		"name": "Afsana Mimi",
+		"designation": "IT Officer",
+		"phone": "-",
+		"email": "-"
+	},
+
+	{
+		"image": "images/officer/computer/ety.jpg",
+		"name": "Ety Akter",
+		"designation": "IT Officer",
+		"phone": "-",
+		"email": "-"
 	}
 ]
